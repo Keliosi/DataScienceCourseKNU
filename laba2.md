@@ -112,9 +112,9 @@ for (var in v) {
 
 ### Для цього вектору: виведіть всі елементи, які не NA;
  for (var in z) {
-+   if(!anyNA(var))
-+     print(var)
-+ }
+   if(!anyNA(var))
+     print(var)
+ }
 [1] 1
 [1] 2
 [1] 3
@@ -125,11 +125,11 @@ for (var in v) {
  count = 0
  sum = 0
  for (var in z) {
-+   if(!anyNA(var)) {
-+     sum = sum + var
-+     count = count + 1
-+   }
-+ }
+   if(!anyNA(var)) {
+     sum = sum + var
+     count = count + 1
+   }
+ }
  print(sum/count)
 [1] 3
 
@@ -137,8 +137,8 @@ for (var in v) {
  count = 0
  sum = 0
  for (var in z) {
-+     sum = sum + var
-+     count = count + 1
-+ }
+     sum = sum + var
+     count = count + 1
+ }
  print(sum/count)
 [1] NA
