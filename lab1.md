@@ -106,6 +106,7 @@ myvec6 = c(1, 2, 3, 4, NA, 6, 7, NA, 9, NA, 11)
  ind = 0L  
  first_ind = 0L  
  count = 0L  
+ ```
  while(ind != length(myvec6)) {
    if(anyNA(myvec6[ind]) && first_ind  0) {
      first_ind = ind
@@ -114,6 +115,7 @@ myvec6 = c(1, 2, 3, 4, NA, 6, 7, NA, 9, NA, 11)
    }
    ind = ind+1L
  }
+ ```
  first_ind
 [1] 0
 
