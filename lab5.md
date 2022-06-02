@@ -53,5 +53,5 @@
  
 `cr = corr(dir, 5000)`  
 `head(cr);summary(cr)`  
-`numeric(0)`  
+numeric(0)    
    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.  
