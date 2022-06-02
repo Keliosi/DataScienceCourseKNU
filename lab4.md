@@ -172,7 +172,7 @@
 `ncol(data)`  
 [1] 6  
 ## 4. Виведіть останні 10 строк дата фрейму.
- data[(nrow(data)-9):nrow(data),]  
+`data[(nrow(data)-9):nrow(data),]`  
     Ozone Solar.R Wind Temp Month Day  
 144    13     238 12.6   64     9  21  
 145    23      14  9.2   71     9  22  
