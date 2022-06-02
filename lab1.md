@@ -56,7 +56,7 @@
 
 `m = c(0.5, 3.9, 0, 2, 1.3, 131, 2.2, 7, 3.5, 2.8, 4.6, 5.1)`  
 `dim(m) = c(4, 3)`   
-`m` 
+`m`  
      [,1]  [,2] [,3]  
 [1,]  0.5   1.3  3.5  
 [2,]  3.9 131.0  2.8  
@@ -67,7 +67,7 @@
 `cvec2 = c(1.3, 131, 2.2, 7)` 
 `cvec3 = c(3.5, 2.8, 4.6, 5.1)`  
 `m = cbind(cvec1, cvec2, cvec3)`  
-`m` 
+`m`  
      cvec1 cvec2 cvec3  
 [1,]   0.5   1.3   3.5  
 [2,]   3.9 131.0   2.8  
@@ -116,37 +116,37 @@ Levels: baby child adult
    ind = ind+1L
  }
  ```
- `first_ind`
+ `first_ind`  
 [1] 0  
 
 ### Знайти кількість значень NA.
- `count`
+ `count`  
 [1] 3  
  
 ## 7. Створити довільний data frame та вивести в консоль.
- `table = data.frame(number = 1:9, logic= c(as.logical(1:9)))`
- `table`
-  number logic
-1      1  TRUE
-2      2  TRUE
-3      3  TRUE
-4      4  TRUE
-5      5  TRUE
-6      6  TRUE
-7      7  TRUE
-8      8  TRUE
-9      9  TRUE
+ `table = data.frame(number = 1:9, logic= c(as.logical(1:9)))`  
+ `table`  
+  number logic  
+1      1  TRUE  
+2      2  TRUE  
+3      3  TRUE  
+4      4  TRUE  
+5      5  TRUE  
+6      6  TRUE  
+7      7  TRUE  
+8      8  TRUE  
+9      9  TRUE  
 
 ## 8. Змінити імена стовпців цього data frame.
- `names(table) = c("Integer", "IsInteger")`
- `table`
-  Integer IsInteger
-1       1      TRUE
-2       2      TRUE
-3       3      TRUE
-4       4      TRUE
-5       5      TRUE
-6       6      TRUE
-7       7      TRUE
-8       8      TRUE
-9       9      TRUE
+ `names(table) = c("Integer", "IsInteger")`  
+ `table`  
+  Integer IsInteger  
+1       1      TRUE  
+2       2      TRUE  
+3       3      TRUE  
+4       4      TRUE  
+5       5      TRUE  
+6       6      TRUE  
+7       7      TRUE  
+8       8      TRUE  
+9       9      TRUE  
