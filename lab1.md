@@ -1,7 +1,7 @@
 ## 1. Створити змінні базових (atomic) типів. Базові типи: character, numeric, integer, complex, logical.
 
-mychar = "Hello world"
-mychar
+mychar = "Hello world"  
+mychar  
 
 [1] "Hello world"
 class(mychar)
