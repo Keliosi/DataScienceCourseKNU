@@ -3,9 +3,9 @@
 mychar = "Hello world"  
 mychar  
 
-[1] "Hello world"
-class(mychar)
-[1] "character"
+[1] "Hello world"  
+class(mychar)  
+[1] "character"  
  
 mynum = 0.9
 mynum
